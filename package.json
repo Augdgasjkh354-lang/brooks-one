@@ -1,0 +1,23 @@
+{
+  "name": "billiards-training-checkin",
+  "version": "1.0.0",
+  "description": "Billiards training check-in app with Express backend and vanilla JS frontend",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "lint": "node --check src/index.js"
+  },
+  "keywords": [
+    "billiards",
+    "training",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
