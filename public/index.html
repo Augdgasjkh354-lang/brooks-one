@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billiards Training Check-in</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="top-header">
+        <h1>Billiards Training</h1>
+        <p id="headerSubtitle">每日檢核與進階解鎖追蹤</p>
+      </header>
+
+      <main id="tabContent" class="tab-content">
+        <section id="checkinTab" class="tab-panel active"></section>
+        <section id="recordsTab" class="tab-panel"></section>
+        <section id="settingsTab" class="tab-panel"></section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Main Navigation">
+        <button class="nav-btn active" data-tab="checkinTab">Check-in</button>
+        <button class="nav-btn" data-tab="recordsTab">Records</button>
+        <button class="nav-btn" data-tab="settingsTab">Settings</button>
+      </nav>
+    </div>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <script src="/js/checkin-tab.js"></script>
+    <script src="/js/records-tab.js"></script>
+    <script src="/js/settings-tab.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
